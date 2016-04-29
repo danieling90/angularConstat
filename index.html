@@ -1,0 +1,29 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel=stylesheet href="assets/css/bootstrap/bootstrap.min.css" type="text/css">
+
+    <link rel=stylesheet href="assets/css/style.css" type="text/css">    
+    <link rel=stylesheet href="assets/css/userRegister/userRegister.css" type="text/css">
+</head>
+<body>
+    
+    <div ng-app="app">
+        <div ng-view></div>
+    </div>  
+
+    <script src="assets/js/libs/jquery/jquery.min.js"></script>
+    <script src="assets/js/libs/angular/angular.min.js"></script>
+    <script src="assets/js/libs/angular/angular-route.min.js"></script>    
+    <script src="app.module.js"></script>
+    <script src="app.config.js"></script>
+    <script src="directives/validateLargeEmail.directive.js"></script>
+
+    <script src="modules/userRegister/js/userRegister.module.js"></script>
+    <script src="modules/userRegister/js/userRegister.constant.js"></script>
+    <script src="modules/userRegister/js/userRegister.controller.js"></script>
+    <script src="modules/userRegister/js/userRegister.factory.js"></script>    
+</body>
+</html>

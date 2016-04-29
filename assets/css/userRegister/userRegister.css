@@ -1,0 +1,77 @@
+﻿.login-main {
+    background: transparent url('../../img/login_back.png') no-repeat;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.login-title-product {
+    height: 76px;
+}
+
+.content-register-user {
+    margin-top: 20vh;
+}
+
+.asdk-logo {
+    background: transparent url('../../img/logo_asdk.png') no-repeat;
+    width: 60px;
+    height: 60px;
+    float: left;
+}
+
+.login-title-product label {
+    font-size: 36px;
+    color: #808080;
+    font-style: normal;
+    font-weight: normal;
+    position: relative;
+    top: 20px;
+    left: 16px;
+}
+
+
+    .login-title-product label.bold {
+        font-family: Glober-SemiBold;
+    }
+
+label, a {
+    display: inline-block;
+    font-weight: normal;
+    margin-bottom: 4px;
+    max-width: 100%;
+    position: relative;
+}
+
+.login-title-product.console {
+    float: right;
+    color: #F5846F;
+    font-size: 18px;
+    height: 20px;
+    left: -63px;
+    position: relative;
+}
+
+.login-title-product label.thin {
+    font-family: Glober-Thin;
+    font-weight: bold;
+}
+
+.container-form-register {
+    margin: 62px 85px 4px 43px;
+}
+
+.msg-register-user {
+    padding-right: 61px;
+    padding-top: 6px;
+}
+
+.content-terms-conditions a {
+    display: inline;
+}
